@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divisíveis por 5 e 3</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="estilozada4.css">
+</head>
+<body>
+    <header>
+        <div class="topo">
+            <div class="botaovoltar">
+                <button onclick="location.href='index.html'" id="botaozada">Voltar</button>
+            </div>
+            <div class="textotop">
+                <h1>Divisíveis por 5 e 3</h1>
+            </div>
+        </div>
+    </header>
+    <div id="calc">
+        <br>
+        <div id="subtitulo">
+            <h2>Insira os Valores</h2>
+        </div>
+        <br><br>
+        <input type="number" id="divisao" placeholder="Insira os Valores Aqui">
+        <br><br>
+        <button id="btcalc" onclick="inserirDivisao()">Inserir</button>
+        <button id="btcalc" onclick="limparDivisao()">Limpar</button>
+        <br><br>
+        <div class="paiarrayarea">
+            <div class="arrayarea">
+                <textarea class="estilotext" id="textdivisao" readonly></textarea>
+            </div>
+            <br>
+            <div class="resarray">
+                <div>
+                    <h3>Resultado</h3>
+                    <h4>Por 5</h4>
+                    <div id="resdivisao"></div>
+                    <h4>Por 3</h4>
+                    <div id="resdivisao2"></div>
+                </div>
+                <br>
+                <button id="btcalc" onclick="btndivisao()" id="btninvi">Calcular</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

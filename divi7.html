@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divisíveis por 7</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="estilozada3.css">
+</head>
+<body>
+    <header>
+        <div class="topo">
+            <div class="botaovoltar">
+                <button onclick="location.href='index.html'" id="botaozada">Voltar</button>
+            </div>
+            <div class="textotop">
+                <h1>Divisíveis por 7</h1>
+            </div>
+        </div>
+    </header>
+    <div id="calc">
+        <br>
+        <div id="subtitulo">
+            <h2>Insira os Valores</h2>
+        </div>
+        <br><br>
+        <input type="number" id="divi1" placeholder="Insira os Valores Aqui">
+        <br><br>
+        <button id="btcalc" onclick="inserirDivi()">Inserir</button>
+        <button id="btcalc" onclick="limparDivi()">Limpar</button>
+        <br><br>
+        <div class="paiarrayarea">
+            <div class="arrayarea">
+                <textarea class="estilotext" id="textdivi" readonly></textarea>
+            </div>
+            <br>
+            <div class="resarray">
+                <div>
+                    <h3>Resultado</h3>
+                    <div id="resdivi"></div>
+                </div>
+                <br>
+                <button id="btcalc" onclick="btndivi()" id="btnsomando">Calcular</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

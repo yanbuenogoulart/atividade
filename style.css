@@ -1,0 +1,191 @@
+body{
+    background-color: rgb(37, 36, 41);
+    margin: 0;
+}
+
+#calc{
+    width: 600px;
+    height: 625px;
+    background-color: rgb(49, 47, 56);
+    margin: auto ;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
+h1{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-text-stroke: 1.5px black;  
+    text-align: center;
+    font-size: 50px;
+}
+
+#subtitulozada {
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-text-stroke: 1.5px black;  
+    text-align: center;
+    font-size: 60px;
+}
+
+#res{
+    color: white;
+    font-size: 40px;
+    color: rgb(238, 203, 48);
+}
+
+#numberres{
+    color: rgb(118, 115, 156);
+    font-size: 75px;
+    font-weight: bolder;
+}
+
+
+
+label{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+input{
+    border-radius: 25px;
+    width: 350px;
+    height: 70px;
+    background-color: rgb(37, 36, 41);
+    color: white;
+    text-align: center;
+    border: none;
+    font-size: 35px;
+
+}
+
+input:focus{
+    background-color: rgb(30, 30, 32);
+}
+
+
+#btcalc {
+    border-radius: 25px;
+    width: 180px;
+    height: 50px;
+    transition: transform 1s ease;
+    background-color: rgb(63, 61, 71);
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+#btcalc:hover {
+    transform: scale(1.15,1.15);
+}
+
+#btcalc:focus {
+    background-color: rgb(27, 27, 29);
+}
+
+#subtitulo h2 {
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: white;
+    
+}
+
+#centralizar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding-bottom: 25px;
+}
+
+.ouzada{
+    color: white;
+    font-size: 25px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    height: 100px;
+}
+
+.topo {
+    background-color: rgb(24, 22, 27);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px; 
+}
+
+.botaovoltar {
+    margin-right: 0px; 
+}
+
+.textotop {
+    flex-grow: 1; 
+    text-align: center; 
+}
+
+hr {
+    background-color: white;
+    height: 0px;
+    border: none;
+}
+
+#botaozada {
+    background-color: rgb(48, 47, 51);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    width: 80px;
+    height: 40px;
+    transition: transform 1s ease;
+}
+
+#botaozada:hover{
+    transform: scale(1.15,1.15);
+}
+
+#atividades {
+    padding-top: 25px;
+    display: flex;
+    justify-content:space-evenly;
+    width: 800px;
+    height: 125px;
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+.paddingzada {
+    padding-top: 25px;
+}
+
+#btatv {
+    height: 125px;
+    width: 175px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: rgb(64, 64, 66);
+    transition: transform 1s ease;
+    font-size: 35px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#btatv:hover {
+    transform: scale(1.15,1.15);
+}
+
+#atividades2 {
+    display: flex;
+    justify-content:space-evenly;
+    width: 800px;
+    height: 125;
+    margin: auto;
+
+}

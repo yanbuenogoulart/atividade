@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Valores</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="estilozada.css">
+</head>
+<body>
+    <header>
+        <div class="topo">
+            <div class="botaovoltar">
+                <button onclick="location.href='index.html'" id="botaozada">Voltar</button>
+            </div>
+            <div class="textotop">
+                <h1>Verificador de Valores</h1>
+            </div>
+        </div>
+    </header>
+    <div id="calc">
+        <br>
+        <div id="subtitulo">
+            <h2>Insira os Valores</h2>
+        </div>
+        <br><br>
+        <input type="number" id="num" placeholder="Insira os Valores Aqui">
+        <br><br>
+        <button id="btcalc" onclick="inserirNum()">Inserir</button>
+        <button id="btcalc" onclick="limpardados()">Limpar</button>
+        <br>
+        <div class="arrayarea">
+            <textarea class="estilotext" id="textarray" readonly></textarea>
+        </div>
+        <button id="btcalc" onclick="btncalculo()">Calcular</button>
+
+        <br><br>
+        <div class="paiarrayarea">
+            
+            <br>
+            <div class="resarray">
+                <div>
+                    <h3>Maior Número</h3>
+                    <textarea readonly class="saidares" id="maiornum"></textarea>
+                </div>
+                <div>
+                    <h3>Menor Número</h3>
+                    <textarea readonly class="saidares" id="menornum"></textarea>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
